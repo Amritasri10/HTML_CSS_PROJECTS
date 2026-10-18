@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CSS Grid — Mini Project</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400&display=swap" rel="stylesheet" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- styles css -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ====== PAGE HERO ====== -->
+  <section class="index-hero">
+    <div class="index-hero-content">
+      <h1>CSS Grid Showcase</h1>
+      <p>
+        A collection of four hands-on CSS Grid layout demos — from a full-screen hero to
+        magazine-style tiles. Click any card below to explore a demo.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== DEMO CARDS ====== -->
+  <section class="index-demos">
+    <div class="index-demos-center">
+
+      <!-- hero demo -->
+      <a href="hero.html" class="demo-card">
+        <div class="demo-card-img demo-img-hero">
+          <span class="demo-icon"><i class="fa-solid fa-panorama"></i></span>
+        </div>
+        <div class="demo-card-body">
+          <h3>Hero Section</h3>
+          <p>Full-viewport background image layout built with CSS Grid centering. Great for landing page headers.</p>
+          <span class="demo-tag">grid · align · justify</span>
+        </div>
+      </a>
+
+      <!-- cards demo -->
+      <a href="cards.html" class="demo-card">
+        <div class="demo-card-img demo-img-cards">
+          <span class="demo-icon"><i class="fa-solid fa-table-cells-large"></i></span>
+        </div>
+        <div class="demo-card-body">
+          <h3>Three Column Cards</h3>
+          <p>Responsive card grid using <code>auto-fill</code> and <code>minmax()</code> — columns adjust automatically to screen width.</p>
+          <span class="demo-tag">auto-fill · minmax · card layout</span>
+        </div>
+      </a>
+
+      <!-- tiles demo -->
+      <a href="tiles.html" class="demo-card">
+        <div class="demo-card-img demo-img-tiles">
+          <span class="demo-icon"><i class="fa-solid fa-border-all"></i></span>
+        </div>
+        <div class="demo-card-body">
+          <h3>Tiles Layout</h3>
+          <p>Magazine-style asymmetric photo grid using <code>grid-template-areas</code> and <code>grid-area</code> for named placement.</p>
+          <span class="demo-tag">grid-areas · template-rows · tiles</span>
+        </div>
+      </a>
+
+      <!-- layout demo -->
+      <a href="layout.html" class="demo-card">
+        <div class="demo-card-img demo-img-layout">
+          <span class="demo-icon"><i class="fa-solid fa-columns"></i></span>
+        </div>
+        <div class="demo-card-body">
+          <h3>Page Layout</h3>
+          <p>Classic header / sidebar / content / footer full-page layout using named grid lines and template areas.</p>
+          <span class="demo-tag">named lines · full layout · sidebar</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="index-footer">
+    <p>&copy; <span id="date"></span> CSS Grid Mini Project. All layouts built with pure CSS Grid.</p>
+    <p style="margin-top:0.25rem;">Developed by <strong style="color:rgb(241,80,37);">Amrita Srivastava</strong></p>
+  </footer>
+
+  <script>document.getElementById('date').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

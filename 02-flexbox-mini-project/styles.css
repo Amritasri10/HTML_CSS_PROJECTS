@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px 16px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  letter-spacing: 0.05em;
+}
+
+/* 
+=======================
+  GALLERY — BASE (mobile first)
+  1 column on mobile (<480px)
+=======================
+*/
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px 12px;
+}
+
+.gallery img {
+  width: 100%;          /* full width on mobile */
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* ghost element to keep last row left-aligned */
+.gallery::after {
+  content: "";
+  width: 100%;
+}
+
+/* 
+=======================
+  SMALL TABLETS  ≥ 480px
+  2 columns
+=======================
+*/
+@media screen and (min-width: 480px) {
+  .gallery img {
+    width: calc(50% - 8px);   /* 2 per row */
+    height: 240px;
+  }
+
+  .gallery::after {
+    width: calc(50% - 8px);
+  }
+}
+
+/* 
+=======================
+  TABLETS  ≥ 768px
+  3 columns
+=======================
+*/
+@media screen and (min-width: 768px) {
+  .gallery {
+    gap: 16px;
+    padding: 24px 16px;
+  }
+
+  .gallery img {
+    width: calc(33.33% - 12px);   /* 3 per row */
+    height: 260px;
+  }
+
+  .gallery::after {
+    width: calc(33.33% - 12px);
+  }
+}
+
+/* 
+=======================
+  DESKTOP  ≥ 1024px
+  3 columns, larger cards
+=======================
+*/
+@media screen and (min-width: 1024px) {
+  .gallery {
+    gap: 20px;
+    padding: 32px 20px;
+  }
+
+  .gallery img {
+    width: calc(33.33% - 14px);
+    height: 300px;
+  }
+
+  .gallery::after {
+    width: calc(33.33% - 14px);
+  }
+}
+
+/* 
+=======================
+  LARGE DESKTOP  ≥ 1200px
+  fixed max card width, natural 3-4 columns
+=======================
+*/
+@media screen and (min-width: 1200px) {
+  .gallery img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .gallery::after {
+    width: 350px;
+  }
+}

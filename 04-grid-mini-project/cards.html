@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>cards Page</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400&display=swap" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- shared nav -->
+    <nav class="main-navbar">
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> home</a></li>
+        <li><a href="hero.html">hero</a></li>
+        <li><a href="cards.html" class="active-link">cards</a></li>
+        <li><a href="tiles.html">tiles</a></li>
+        <li><a href="layout.html">layout</a></li>
+      </ul>
+    </nav>
+
+    <section class="cards">
+        <div class="title">
+            <h1>Three Column Cards</h1>
+            <p class="title-sub">Built with <code>auto-fill</code> + <code>minmax()</code> — resize your browser to watch the grid reflow.</p>
+        </div>
+        <div class="cards-center">
+
+            <!-- single card -->
+            <article class="card">
+                <img src="./images/size-image-1.jpeg" alt="Tropical beach with palm trees">
+                <div class="card-info">
+                    <h3>tropical coast</h3>
+                    <p>Crystal-clear waters, swaying palms, and white sand beaches — this layout demo uses CSS Grid's
+                       <code>auto-fill</code> to pack cards responsively without a single media query.</p>
+                </div>
+                <div class="card-footer">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-squarespace"></i></span>
+                    <span><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+            </article>
+
+            <!-- single card -->
+            <article class="card">
+                <img src="./images/size-image-2.jpeg" alt="Sunset over sandy dunes">
+                <div class="card-info">
+                    <h3>golden dunes</h3>
+                    <p>Sweeping desert dunes at sunset. The <code>minmax(268px, 1fr)</code> rule ensures each card
+                       is never too narrow, while filling available space naturally.</p>
+                </div>
+                <div class="card-footer">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-squarespace"></i></span>
+                    <span><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+            </article>
+
+            <!-- single card -->
+            <article class="card">
+                <img src="./images/size-image-3.jpeg" alt="Mountain trail through alpine meadow">
+                <div class="card-info">
+                    <h3>alpine trail</h3>
+                    <p>A winding boardwalk through a snow-capped alpine valley. Grid's implicit row sizing
+                       keeps card heights consistent row-by-row without extra code.</p>
+                </div>
+                <div class="card-footer">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-squarespace"></i></span>
+                    <span><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+            </article>
+
+            <!-- single card -->
+            <article class="card">
+                <img src="./images/size-image-4.jpeg" alt="Sandy beach with bright blue sky">
+                <div class="card-info">
+                    <h3>sun & sand</h3>
+                    <p>Bright skies and open sands. This fourth card shows how <code>auto-fill</code> gracefully
+                       handles an uneven number of items without breaking the layout.</p>
+                </div>
+                <div class="card-footer">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-squarespace"></i></span>
+                    <span><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <a href="index.html" class="btn">back to home</a>
+    <footer style="text-align:center; padding:1rem 2rem; background:var(--darkGrey); font-size:0.75rem; color:#444;">
+      Developed by <strong style="color:var(--primaryColor);">Amrita Srivastava</strong>
+    </footer>
+</body>
+
+</html>
