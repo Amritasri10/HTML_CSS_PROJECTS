@@ -65,16 +65,16 @@ Each project lives in its own numbered directory and includes all necessary sour
 | 01 | Tea Station | [View →](https://css-01-teastation.netlify.app) |
 | 02 | Flexbox Mini Project | [View →](https://css-02-flexbox-miniproject.netlify.app) |
 | 03 | Backroads Tours | [View →](https://css-03-backroadstours.netlify.app) |
-| 04 | Grid Mini Project | [View →](https://css-04-grid-mini-project.netlify.app) |
-| 05 | Portfolio (Grid) | [View →](https://css-05-portfolio.netlify.app) |
-| 06 | Usability Hub Clone | [View →](https://css-06-usability-hub-clone.netlify.app) |
-| 07 | Simply Recipes | [View →](https://css-07-simply-recipes.netlify.app) |
-| 08 | Portfolio | [View →](https://css-08-portfolio.netlify.app) |
-| 09 | Form | [View →](https://css-09-form.netlify.app) |
+| 04 | Grid Mini Project | [View →](https://css04-grid-mini-project.netlify.app) |
+| 05 | Portfolio (Grid) | [View →](https://css05-portfolio.netlify.app) |
+| 06 | Usability Hub Clone | [View →](https://css06-usability-hub-clone.netlify.app) |
+| 07 | Simply Recipes | [View →](https://css-07-simplyrecipes.netlify.app) |
+| 08 | Portfolio | [View →](https://css08-portfolio.netlify.app) |
+| 09 | Form | [View →](https://css09-form.netlify.app) |
 | 10 | Restaurant Website | [View →](https://css-10-restaurantwebsite.netlify.app) |
 | 11 | Space Website | [View →](https://css-11-spacewebsite.netlify.app) |
 | 12 | 404 Page | [View →](https://css-12-404page.netlify.app) |
-| 13 | Product Design Portfolio | [View →](https://css13-product-design-portfolio.netlify.app) |
+| 13 | Product Design Portfolio | [View →](https://css-13-product-design-portfolio.netlify.app) |
 ---
 ## Contributing
 
