@@ -2,18 +2,6 @@
 
 A curated collection of frontend projects built with HTML and CSS, designed to support hands-on learning and skill development in modern web development.
 ---
-## Table of Contents
-
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Projects](#projects)
-- [Live Demos](#live-demos)
-- [Contributing](#contributing)
----
-## Overview
-
-This repository contains a series of progressively structured frontend projects covering core web development concepts — from layout techniques like Flexbox and CSS Grid to fully responsive multi-page websites. Each project is self-contained with its own HTML, CSS, and optional JavaScript files.
----
 ## Getting Started
 
 Follow these steps to get up and running:
