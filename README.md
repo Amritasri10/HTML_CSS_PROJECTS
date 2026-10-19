@@ -2,29 +2,6 @@
 
 A curated collection of frontend projects built with HTML and CSS, designed to support hands-on learning and skill development in modern web development.
 ---
-## Getting Started
-
-Follow these steps to get up and running:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/html-css-frontend-projects.git
-   ```
-
-2. **Navigate to a project directory**
-   ```bash
-   cd project-name
-   ```
-
-3. **Open in your browser**
-   Open the `index.html` file directly in your browser, or use a local development server such as [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
-
-4. **Explore and build**
-   Study the existing structure, then experiment by modifying the HTML and CSS to deepen your understanding.
-
-5. **Focus on responsiveness**
-   Ensure your implementations adapt gracefully across screen sizes — from mobile to desktop.
----
 ## Projects
 
 Each project lives in its own numbered directory and includes all necessary source files and assets.
@@ -64,6 +41,30 @@ Each project lives in its own numbered directory and includes all necessary sour
 | 12 | 404 Page | [View →](https://css-12-404page.netlify.app) |
 | 13 | Product Design Portfolio | [View →](https://css-13-product-design-portfolio.netlify.app) |
 ---
+## Getting Started
+
+Follow these steps to get up and running:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/html-css-frontend-projects.git
+   ```
+
+2. **Navigate to a project directory**
+   ```bash
+   cd project-name
+   ```
+
+3. **Open in your browser**
+   Open the `index.html` file directly in your browser, or use a local development server such as [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
+
+4. **Explore and build**
+   Study the existing structure, then experiment by modifying the HTML and CSS to deepen your understanding.
+
+5. **Focus on responsiveness**
+   Ensure your implementations adapt gracefully across screen sizes — from mobile to desktop.
+---
+
 ## Contributing
 
 Contributions are welcome and appreciated. To contribute:
